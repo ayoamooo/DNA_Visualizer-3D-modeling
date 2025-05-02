@@ -1,0 +1,3 @@
+/home/alim/DNA_Visualizer/build/CMakeFiles/BioVisualizer.dir
+/home/alim/DNA_Visualizer/build/CMakeFiles/edit_cache.dir
+/home/alim/DNA_Visualizer/build/CMakeFiles/rebuild_cache.dir
