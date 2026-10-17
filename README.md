@@ -8,6 +8,12 @@ The project is an educational graphics demonstration. Molecule geometry and inte
 
 **Keywords:** molecular visualisation, OpenGL, C++, interactive graphics
 
+## Application preview
+
+This frame was captured from the running desktop application. The initial view keeps the DNA, RNA, and protein examples in frame, with automatic rotation available from the control panel.
+
+![DNA, RNA, and protein in the DNA Visualizer application](docs/screenshots/biomolecules-overview.jpg)
+
 ## What the program shows
 
 - A nucleotide helix for DNA, a wave-shaped RNA strand, and a simplified protein form
@@ -54,7 +60,7 @@ The CMake target compiles Dear ImGui and its GLUT/OpenGL backends from the pinne
 ## Controls
 
 - Drag with the left mouse button to orbit the scene.
-- Use the control panel to pause automatic rotation, change simulation speed, focus a molecule, and select an interaction mode.
+- Use the control panel to start automatic rotation, change simulation speed, focus a molecule, and select an interaction mode.
 
 ## Academic scope
 

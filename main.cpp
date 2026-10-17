@@ -34,9 +34,9 @@ struct Molecule {
 // Глобальные переменные
 std::vector<Molecule> molecules;
 bool show_controls = true;
-bool auto_rotate = true;
-float camera_distance = 15.0f;
-float camera_angle_x = 0.0f;
+bool auto_rotate = false;
+float camera_distance = 26.0f;
+float camera_angle_x = 1.2f;
 float camera_angle_y = 0.0f;
 int last_mouse_x = 0;
 int last_mouse_y = 0;
@@ -143,7 +143,6 @@ void InitOpenGL() {
     glEnable(GL_MULTISAMPLE);
     glEnable(GL_LIGHTING);
     glEnable(GL_LIGHT0);
-    glEnable(GL_COLOR_MATERIAL);
     glShadeModel(GL_SMOOTH);
 
     glLightfv(GL_LIGHT0, GL_POSITION, light_pos);
